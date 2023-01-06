@@ -1,13 +1,13 @@
 * {
   font-size:30px;
-  font-family:arial;
+  font-family:roboto;
 }
 *::selection {
   background-color:rgb(10,10,10);
   color:rgb(200,200,200);
 }
 body {
-  background:url(https://images.unsplash.com/photo-1484849890624-e23c6d5791d1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60) no-repeat center center fixed;
+  background:url(https://imgs.search.brave.com/-AUI8ew4ljkXh37U5tR54g6OaQucvFBwjiJHwyuCcS8/rs:fit:948:225:1/g:ce/aHR0cHM6Ly90c2Ux/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC53/OFNQUVUtX0VUQWti/MDY4WDYweXhnSGFE/dCZwaWQ9QXBp) no-repeat center center fixed;
   background-size:100% 100%;
   margin:0;
   overflow:hidden;
@@ -56,7 +56,7 @@ input[id=run],input[id=copycode] {
   border:solid 2px black;
   margin-bottom:10px;
   margin-top:10px;
-  font-family:arial black;
+  font-family:roboto black;
 }
 input[id=run]:hover,input[id=copycode]:hover {
   background-color:gray;
@@ -65,7 +65,7 @@ input[id=downhill],input[id=climb],input[id=flat],input[id=custom] {
   width:200px;
   background-color:rgb(200,200,200);
   border:solid 2px black;
-  font-family:arial black;
+  font-family:roboto black;
   cursor:default;
 }
 input[id=custom] {
@@ -97,7 +97,7 @@ div[id=form] {
   width:inherit;
   position:absolute;
   top:90px;
-  font-family:arial black;
+  font-family:roboto black;
 }
 div[id=button] {
   background-color:rgb(10,10,10);
@@ -114,7 +114,7 @@ input[type=number] {
   position:absolute;
   display:inline-block;
   text-align:center;
-  font-family:arial black;
+  font-family:roboto black;
 }
 input[type=number]:hover {
   background-color:gray;
