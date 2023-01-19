@@ -439,7 +439,7 @@ function h2def() {
 linkenable();
 function linkenable() {
   link.addEventListener('click',function() {
-    window.open('https://www.freeriderhd.com/u/stezy/created');
+    window.open('https://www.freeriderhd.com/u/totem/created');
   });
 }
 h1.addEventListener('click',boldmode1XXX);
